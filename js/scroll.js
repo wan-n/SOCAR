@@ -16,18 +16,16 @@ setTimeout(() => {
 
 
 setTimeout(() => {
-    saAppText.classList.remove('hide-opacity');
     saAppText.classList.add('show-opacity');
 }, 800);
 
 setTimeout(() => {
-    saAppImg.classList.remove('hide-opacity');
-    saAppImg.classList.add('show-opacity');
-}, 1200);
-
-setTimeout(() => {
     saAppBg.classList.remove('mv-left-bg');
 }, 1000);
+
+setTimeout(() => {
+    saAppImg.classList.add('show-opacity');
+}, 1300);
 
 
 
